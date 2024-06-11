@@ -78,8 +78,8 @@ def cadastrar_produto(produtos):
     preco = input_float("Digite o preço do produto: ")
 
     while True:
-        estoque = input_int("Digite a quantidade em estoque (maior que 1): ")
-        if estoque > 1:
+        estoque = input_int("Digite a quantidade em estoque (maior ou igual a 1): ")
+        if estoque >= 1:
             break
         else:
             print("A quantidade em estoque deve ser maior que 1. Tente novamente.")
