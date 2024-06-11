@@ -10,7 +10,6 @@ if __name__ == "__main__":
 
     # estoque de notas e moedas
     estoque_notas_moedas = {
-        100: 10, 50: 10, 20: 10, 10: 10, 5: 10, 2: 10,
         1: 10, 0.50: 10, 0.25: 10, 0.10: 10, 0.05: 10, 0.01: 10
     }
 
